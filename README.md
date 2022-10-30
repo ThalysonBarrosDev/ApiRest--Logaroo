@@ -10,3 +10,18 @@
 <p align="center">
 	API REST com Autenticação JWT
 </p>
+
+## Informações:
+
+Database:
+- Name: db_apirest_logaroo
+
+Autenticação:
+- POST: http://127.0.0.1:8000/api/v1/auth/login
+
+Postagens:
+- POST: http://127.0.0.1:8000/api/v1/posts
+- GET: http://127.0.0.1:8000/api/v1/posts
+- GET: http://127.0.0.1:8000/api/v1/posts/6
+- PUT: http://127.0.0.1:8000/api/v1/posts/6
+- DELETE: http://127.0.0.1:8000/api/v1/posts/1
