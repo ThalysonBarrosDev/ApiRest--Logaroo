@@ -22,6 +22,7 @@ class PostsController extends Controller
             return response()->json(['return' => $e->getMessage()], $e->getCode());
 
         }
+        
     }
 
     public function readAll()
@@ -36,6 +37,7 @@ class PostsController extends Controller
             return response()->json(['return' => $e->getMessage()], $e->getCode());
 
         }
+
     }
 
     public function read($tag)
@@ -50,6 +52,7 @@ class PostsController extends Controller
             return response()->json(['return' => $e->getMessage()], $e->getCode());
 
         }
+
     }
 
     public function update($id)
@@ -64,6 +67,7 @@ class PostsController extends Controller
             return response()->json(['return' => $e->getMessage()], $e->getCode());
 
         }
+
     }
 
     public function delete($id)
@@ -78,6 +82,7 @@ class PostsController extends Controller
             return response()->json(['return' => $e->getMessage()], $e->getCode());
 
         }
+
     }
 
 }

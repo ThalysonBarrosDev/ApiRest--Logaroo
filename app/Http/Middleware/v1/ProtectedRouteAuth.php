@@ -37,7 +37,7 @@ class ProtectedRouteAuth {
 
             } else {
 
-                return response()->json(['return' => 'Token não autorizado, verifique.'], 401);
+                return response()->json(['return' => 'Token não informado, verifique.'], 401);
 
             }
 
