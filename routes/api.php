@@ -10,7 +10,7 @@ Route::prefix('v1/')->group(function () {
 
     /* Route Status */
     Route::get('status', function () {
-        return response()->json(['api_name' => 'apirest-logaroo', 'status' => true], 200);
+        return response()->json(['status' => true, 'api_name' => 'apirest-logaroo'], 200);
     });
 
     /* Route Authentication */

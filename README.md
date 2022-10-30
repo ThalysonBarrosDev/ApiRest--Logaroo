@@ -16,6 +16,9 @@
 Database:
 - Name: db_apirest_logaroo
 
+Status:
+- GET: http://127.0.0.1:8000/api/v1/status
+
 Autenticação:
 - POST: http://127.0.0.1:8000/api/v1/auth/login
 
