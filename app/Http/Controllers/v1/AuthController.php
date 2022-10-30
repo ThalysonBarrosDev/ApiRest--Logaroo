@@ -28,7 +28,7 @@ class AuthController extends Controller {
 
         } catch (Exception $e) {
 
-            return response()->json(['error' => true, 'message' => 'Erro ao realizar a autenticação, verifique!'], $e->getCode()); 
+            return response()->json(['return' => 'Erro ao realizar a autenticação, verifique!'], $e->getCode()); 
 
         }
         

@@ -9,7 +9,7 @@ class LoginService {
 
     public function execute(array $credentials) {
 
-        if (!$token = auth()->setTTL(8640*60)->attempt($credentials)) {
+        if (!$token = auth()->setTTL(24*60)->attempt($credentials)) {
 
             throw new Exception('Autenticação não autorizada.', 401);
 
